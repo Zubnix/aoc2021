@@ -1,6 +1,6 @@
-import { input1 } from './1-input.ts'
+import { input } from './1-input.ts'
 
-const measurements = input1.trim().split('\n').map(element => element.trim()).map(element => Number.parseInt(element))
+const measurements = input.trim().split('\n').map(element => element.trim()).map(element => Number.parseInt(element))
 
 function first () {
   const countContext = { count: 0, previous: measurements[0] }

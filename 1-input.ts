@@ -1,7 +1,7 @@
-export const input1 = `132
+export const input = `132
 146
 153
-175
+175s
 180
 160
 154
