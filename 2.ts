@@ -16,7 +16,6 @@ function first () {
     up: (position: Position, instruction: Instruction): Position => ({ ...position, y: position.y-instruction.distance }),
   }
 
-
   const startPosition: Position = { x: 0, y: 0 }
   const endPosition = course.reduce((position, [direction, distance, ])=> courseDirections[direction](position, { distance }), startPosition)
   console.log(JSON.stringify(endPosition.x*endPosition.y))
